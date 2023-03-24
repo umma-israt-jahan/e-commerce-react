@@ -1,14 +1,16 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Slider from './components/slider/Slider'
+import Carousel from './components/slider/Carousel'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
-      <Slider />
+      <br />
+      <Carousel />
+      <br />
     </div>
   );
 }
